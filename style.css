@@ -15,16 +15,19 @@ body {
   /* height: 979px; */
 }
 
+.white {
+  color: white;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
   margin: auto;
 }
 
-header {
-  background-color: white;
-  height: 327px;
-  width: 100%;
+.header__tekst {
+  margin-top: 200px;
+  font-size: 30px;
 }
 
 .header__h2 {
@@ -34,6 +37,9 @@ header {
 
 .header__container {
   padding: 100px 0 0 0%;
+  background-color: white;
+  height: 200px;
+  width: 100%;
 }
 
 .header__links {
@@ -62,6 +68,7 @@ header {
   width: 250px;
   background-color: white;
   border-radius: 5px;
+  text-decoration: none;
 }
 .grid__link__text {
   font-size: 23px;
