@@ -38,49 +38,66 @@ header {
 }
 
 .footer {
-  height: 180px;
+  height: 150px;
   position:absolute;
   bottom: 0;
   width: 100%;
+  margin-bottom: 30px
 }
 
-.footer__contact-knop {
-  float: right;
-  margin-right: 300px;
-  top: 700px;
+.footer__contact-gegevens {
+  padding:60px 0px 0px 17%;
+}
+
+.footer__paragraaf {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.footer__nummer {
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 49px;
+text-decoration-line: underline;
+color: #FFFFFF;
 }
 
 .footer__contact-knop-tekst {
   position: absolute;
-  padding: 31px 0px 0px 40px;
+  padding: 16px 0px 0px 40px;
   font-size: 30px;
 }
 
 .footer__vierkant{
   position: absolute;
-  width: 236px;
-  height: 92px;
-
+  width: 186px;
+  height: 62px;
+  top: 62px;
+  right: 100px;
   background: #FFFFFF;
   border-radius: 8px;
 }
 
 .footer__circle{
   position: absolute;
-  width: 132px;
-  height: 132px;
-  top: 10px;
-  right: 10px;
+  width: 100px;
+  height: 100px;
+  top: 40px;
+  right: 40px;
   background: #FFFFFF;
   border-radius: 70px;
 }
 
 .footer__circle-rood{
   position: absolute;
-  width: 51px;
-  height: 51px;
-  top: 52px;
-  right: 48px;
+  width: 40px;
+  height: 40px;
+  top: 72px;
+  right: 69px;
   background: #FF445B;
   border-radius: 50px;
 }
