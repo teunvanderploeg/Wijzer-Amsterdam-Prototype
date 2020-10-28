@@ -1,3 +1,16 @@
 body {
-  background: linear-gradient(180deg, #a79cfb 0%, #7974d0 100%);
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, #a79cfb 0%, #7974d0 100%);
+}
+
+header {
+  background-color: white;
+  height: 327px;
+  width: 100%;
+}
+.header__h2 {
+  margin: 0;
+  padding: 97px 0 0 120px;
+  font-size: 66px;
 }
