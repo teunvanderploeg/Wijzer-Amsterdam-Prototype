@@ -1,7 +1,16 @@
-body {
+@font-face {
+  font-family: metropolis;
+  src: url("font/Metropolis/Metropolis-light.otf");
+}
+
+* {
   margin: 0;
   padding: 0;
+}
+
+body {
   background: linear-gradient(90deg, #a79cfb 0%, #7974d0 100%);
+  font-family: metropolis;
 }
 
 header {
@@ -13,4 +22,7 @@ header {
   margin: 0;
   padding: 97px 0 0 120px;
   font-size: 66px;
+}
+
+.footer {
 }
