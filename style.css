@@ -9,9 +9,15 @@
 }
 
 body {
-  background: linear-gradient(180deg, #a79cfb 0%, #7974d0 100%);
+  background: linear-gradient(90deg, #a79cfb 0%, #7974d0 100%);
   font-family: metropolis;
-  height: 979px;
+  /* height: 979px; */
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
 }
 
 header {
@@ -19,17 +25,21 @@ header {
   height: 327px;
   width: 100%;
 }
+
 .header__h2 {
   margin: 0;
   font-size: 66px;
 }
+
 .header__container {
   padding: 97px 0 0 120px;
 }
+
 .header__links {
   display: flex;
   padding-top: 5px;
 }
+
 .header__link {
   color: black;
   font-size: 30px;
@@ -39,14 +49,14 @@ header {
 
 .footer {
   height: 150px;
-  position:absolute;
+  /* position:absolute; */
   bottom: 0;
   width: 100%;
   margin-bottom: 30px
 }
 
 .footer__contact-gegevens {
-  padding:60px 0px 0px 17%;
+  padding:60px 0px 0px opx;
 }
 
 .footer__paragraaf {
