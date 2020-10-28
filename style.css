@@ -20,8 +20,20 @@ header {
 }
 .header__h2 {
   margin: 0;
-  padding: 97px 0 0 120px;
   font-size: 66px;
+}
+.header__container {
+  padding: 97px 0 0 120px;
+}
+.header__links {
+  display: flex;
+  padding-top: 5px;
+}
+.header__link {
+  color: black;
+  font-size: 30px;
+  padding-right: 50px;
+  text-align: left;
 }
 
 .footer {
