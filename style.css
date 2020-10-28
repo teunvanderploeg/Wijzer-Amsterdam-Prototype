@@ -57,7 +57,7 @@ header {
 .grid__link {
   display: flex;
   text-align: right;
-  margin: 10px;
+  margin: 10px 10px 0 0;
   padding: 14px;
   width: 250px;
   background-color: white;
@@ -78,7 +78,7 @@ header {
 
 .footer {
   height: 150px;
-  /* position:absolute; */
+  position: absolute;
   bottom: 0;
   width: 100%;
   margin-bottom: 30px;
