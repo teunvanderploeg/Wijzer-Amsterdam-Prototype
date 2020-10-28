@@ -9,8 +9,9 @@
 }
 
 body {
-  background: linear-gradient(90deg, #a79cfb 0%, #7974d0 100%);
+  background: linear-gradient(180deg, #a79cfb 0%, #7974d0 100%);
   font-family: metropolis;
+  height: 979px;
 }
 
 header {
@@ -25,4 +26,49 @@ header {
 }
 
 .footer {
+  height: 180px;
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer__contact-knop {
+  float: right;
+  margin-right: 300px;
+  top: 700px;
+}
+
+.footer__contact-knop-tekst {
+  position: absolute;
+  padding: 31px 0px 0px 40px;
+  font-size: 30px;
+}
+
+.footer__vierkant{
+  position: absolute;
+  width: 236px;
+  height: 92px;
+
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.footer__circle{
+  position: absolute;
+  width: 132px;
+  height: 132px;
+  top: 10px;
+  right: 10px;
+  background: #FFFFFF;
+  border-radius: 70px;
+}
+
+.footer__circle-rood{
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  top: 52px;
+  right: 48px;
+  background: #FF445B;
+  border-radius: 50px;
 }
