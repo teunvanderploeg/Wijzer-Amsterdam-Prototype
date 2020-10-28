@@ -32,7 +32,7 @@ header {
 }
 
 .header__container {
-  padding: 97px 0 0 120px;
+  padding: 100px 0 0 17%;
 }
 
 .header__links {
@@ -47,16 +47,44 @@ header {
   text-align: left;
 }
 
+.container__categorieen {
+  padding: 100px 0 0 17%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 40em;
+}
+.grid__link {
+  display: flex;
+  text-align: right;
+  margin: 10px;
+  padding: 14px;
+  width: 250px;
+  background-color: white;
+  border-radius: 5px;
+}
+.grid__link__text {
+  font-size: 23px;
+  margin-top: 3px;
+  margin-left: 50px;
+}
+
+.circle-rood-link {
+  width: 25px;
+  height: 25px;
+  background: #ff445b;
+  border-radius: 50px;
+}
+
 .footer {
   height: 150px;
   /* position:absolute; */
   bottom: 0;
   width: 100%;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 .footer__contact-gegevens {
-  padding:60px 0px 0px opx;
+  padding: 60px 0px 0px 17%;
 }
 
 .footer__paragraaf {
@@ -68,12 +96,12 @@ header {
 }
 
 .footer__nummer {
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 49px;
-text-decoration-line: underline;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 49px;
+  text-decoration-line: underline;
+  color: #ffffff;
 }
 
 .footer__contact-knop-tekst {
@@ -82,32 +110,32 @@ color: #FFFFFF;
   font-size: 30px;
 }
 
-.footer__vierkant{
+.footer__vierkant {
   position: absolute;
   width: 186px;
   height: 62px;
   top: 62px;
   right: 100px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 8px;
 }
 
-.footer__circle{
+.footer__circle {
   position: absolute;
   width: 100px;
   height: 100px;
   top: 40px;
   right: 40px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 70px;
 }
 
-.footer__circle-rood{
+.footer__circle-rood {
   position: absolute;
   width: 40px;
   height: 40px;
   top: 72px;
   right: 69px;
-  background: #FF445B;
+  background: #ff445b;
   border-radius: 50px;
 }
