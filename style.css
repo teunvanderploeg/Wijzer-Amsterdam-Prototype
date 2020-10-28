@@ -25,6 +25,7 @@ body {
   margin: auto;
 }
 
+/* Header */
 .header__tekst {
   margin-top: 200px;
   font-size: 30px;
@@ -53,6 +54,7 @@ body {
   padding-right: 50px;
   text-align: left;
 }
+/* End Header */
 
 .header__link:hover {
   color: red;
@@ -119,6 +121,48 @@ body {
   margin-left: 10px;
 }
 
+/* End Categorieen */
+
+/* Themagebied */
+.zoekbalk {
+  margin: 1em 1em 0 0;
+  padding: 7px;
+  background-color: white;
+  width: 100%;
+  height: 3em;
+  display: inline-flex;
+  border-radius: 5px;
+}
+.search-icon {
+  font-size: 25px;
+  text-align: center;
+  color: gray;
+  margin-top: 10px;
+}
+.zoekbalk_input {
+  border: none;
+  width: 100%;
+  margin-left: 20px;
+  font-size: 1.3em;
+}
+.themagebied__vragen {
+  display: flex;
+  text-align: right;
+  margin: 4% 0 4% 0;
+  padding: 15px 0 15px 15px;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.themagebied__vragen__text {
+  font-size: 23px;
+  margin-top: 3px;
+  margin-left: 50px;
+}
+/* End Themagebied */
+
+/* Footer */
 .footer {
   height: 150px;
   position: absolute;
@@ -183,3 +227,4 @@ body {
   background: #ff445b;
   border-radius: 50px;
 }
+/* End Footer */
