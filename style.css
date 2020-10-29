@@ -1,148 +1,7 @@
 @font-face {
-    font-family: 'Avenir LT Std';
-    src: url('fonts/AvenirLTStd-Book.eot');
-    src: url('fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
-        url('fonts/AvenirLTStd-Book.woff2') format('woff2'),
-        url('fonts/AvenirLTStd-Book.woff') format('woff'),
-        url('fonts/AvenirLTStd-Book.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: metropolis;
+  src: url("font/Metropolis/Metropolis-light.otf");
 }
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('fonts/AvenirLTStd-Black.eot');
-    src: url('fonts/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),
-        url('fonts/AvenirLTStd-Black.woff2') format('woff2'),
-        url('fonts/AvenirLTStd-Black.woff') format('woff'),
-        url('fonts/AvenirLTStd-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('fonts/AvenirLTStd-Heavy.eot');
-    src: url('fonts/AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
-        url('fonts/AvenirLTStd-Heavy.woff2') format('woff2'),
-        url('fonts/AvenirLTStd-Heavy.woff') format('woff'),
-        url('fonts/AvenirLTStd-Heavy.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('fonts/AvenirLTStd-Light.eot');
-    src: url('fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
-        url('fonts/AvenirLTStd-Light.woff2') format('woff2'),
-        url('fonts/AvenirLTStd-Light.woff') format('woff'),
-        url('fonts/AvenirLTStd-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('fonts/AvenirLTStd-BlackOblique.eot');
-    src: url('fonts/AvenirLTStd-BlackOblique.eot?#iefix') format('embedded-opentype'),
-        url('fonts/AvenirLTStd-BlackOblique.woff2') format('woff2'),
-        url('fonts/AvenirLTStd-BlackOblique.woff') format('woff'),
-        url('fonts/AvenirLTStd-BlackOblique.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('fonts/AvenirLTStd-MediumOblique.eot');
-    src: url('fonts/AvenirLTStd-MediumOblique.eot?#iefix') format('embedded-opentype'),
-        url('fonts/AvenirLTStd-MediumOblique.woff2') format('woff2'),
-        url('fonts/AvenirLTStd-MediumOblique.woff') format('woff'),
-        url('fonts/AvenirLTStd-MediumOblique.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('fonts/AvenirLTStd-LightOblique.eot');
-    src: url('fonts/AvenirLTStd-LightOblique.eot?#iefix') format('embedded-opentype'),
-        url('fonts/AvenirLTStd-LightOblique.woff2') format('woff2'),
-        url('fonts/AvenirLTStd-LightOblique.woff') format('woff'),
-        url('fonts/AvenirLTStd-LightOblique.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('fonts/AvenirLTStd-Oblique.eot');
-    src: url('fonts/AvenirLTStd-Oblique.eot?#iefix') format('embedded-opentype'),
-        url('fonts/AvenirLTStd-Oblique.woff2') format('woff2'),
-        url('fonts/AvenirLTStd-Oblique.woff') format('woff'),
-        url('fonts/AvenirLTStd-Oblique.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('fonts/AvenirLTStd-Medium.eot');
-    src: url('fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
-        url('fonts/AvenirLTStd-Medium.woff2') format('woff2'),
-        url('fonts/AvenirLTStd-Medium.woff') format('woff'),
-        url('fonts/AvenirLTStd-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('fonts/AvenirLTStd-BookOblique.eot');
-    src: url('fonts/AvenirLTStd-BookOblique.eot?#iefix') format('embedded-opentype'),
-        url('fonts/AvenirLTStd-BookOblique.woff2') format('woff2'),
-        url('fonts/AvenirLTStd-BookOblique.woff') format('woff'),
-        url('fonts/AvenirLTStd-BookOblique.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('fonts/AvenirLTStd-HeavyOblique.eot');
-    src: url('fonts/AvenirLTStd-HeavyOblique.eot?#iefix') format('embedded-opentype'),
-        url('fonts/AvenirLTStd-HeavyOblique.woff2') format('woff2'),
-        url('fonts/AvenirLTStd-HeavyOblique.woff') format('woff'),
-        url('fonts/AvenirLTStd-HeavyOblique.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('fonts/AvenirLTStd-Roman.eot');
-    src: url('fonts/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
-        url('fonts/AvenirLTStd-Roman.woff2') format('woff2'),
-        url('fonts/AvenirLTStd-Roman.woff') format('woff'),
-        url('fonts/AvenirLTStd-Roman.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-
 
 * {
   margin: 0;
@@ -152,7 +11,7 @@
 body {
   /* background: linear-gradient(90deg, #a79cfb 0%, #7974d0 100%); */
   background-color: #7974d0;
-  font-family: 'Avenir LT Std', sans-serif;
+  font-family: metropolis;
   /* height: 979px; */
 }
 
@@ -199,7 +58,7 @@ body {
 
 .header__link:hover {
   color: red;
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
 
 .container__categorieen {
@@ -369,3 +228,72 @@ body {
   border-radius: 50px;
 }
 /* End Footer */
+
+/* Media query */
+@media only screen and (max-width: 850px) {
+  .container__categorieen {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5%;
+    width: 80%;
+  }
+  .artikel {
+    display: grid;
+  }
+  .artikel__image {
+    border-radius: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+  .artikel__informatie {
+    border-radius: 0;
+    padding: 1em;
+    height: 100%;
+    min-height: 300px;
+  }
+  .artikel__informatie {
+    width: 100%;
+    padding: 0;
+  }
+  .artikel__header {
+    padding-left: 0.5em;
+  }
+  .artikel__paragraaf {
+    width: 90%;
+    padding-left: 1em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container__categorieen {
+    grid-template-columns: 1fr;
+  }
+  .header__tekst {
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .header__h2 {
+    text-align: center;
+    font-size: 2.7em;
+  }
+  .header__links {
+    display: grid;
+    padding-top: 5px;
+  }
+  .header__link {
+    font-size: 1.2em;
+    padding-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .zoekbalk {
+    width: 90%;
+  }
+  .zoekbalk_input {
+    width: 85%;
+  }
+  .themagebied__vragen {
+    width: 90%;
+  }
+}
+/* End Media query */
