@@ -163,16 +163,16 @@ body {
 /* End Themagebied */
 
 /* Footer */
-.footer {
-  height: 150px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  margin-bottom: 30px;
+.footer__contact-gegevens {
+  display: flex;
+  flex-direction: row;
+  padding: 60px 0px 0px 0px;
 }
 
-.footer__contact-gegevens {
-  padding: 60px 0px 0px 0px;
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer__paragraaf {
@@ -198,35 +198,6 @@ body {
   font-size: 30px;
 }
 
-.footer__vierkant {
-  position: absolute;
-  width: 186px;
-  height: 62px;
-  top: 62px;
-  right: 100px;
-  background: #ffffff;
-  border-radius: 8px;
-}
-
-.footer__circle {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 40px;
-  right: 40px;
-  background: #ffffff;
-  border-radius: 70px;
-}
-
-.footer__circle-rood {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  top: 72px;
-  right: 69px;
-  background: #ff445b;
-  border-radius: 50px;
-}
 /* End Footer */
 
 /* Media query */
