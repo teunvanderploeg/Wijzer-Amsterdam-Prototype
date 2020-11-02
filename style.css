@@ -24,8 +24,20 @@ body {
   max-width: 1200px;
   margin: auto;
 }
-
+.icon {
+  font-size: 2em;
+  color: #ff445b;
+  padding-top: 3px;
+  padding-right: 10px;
+}
+.icon-big {
+  font-size: 5em;
+  color: #ff445b;
+}
 /* Header */
+.container__icon-h2 {
+  display: flex;
+}
 .header__tekst {
   margin-top: 200px;
   font-size: 30px;
@@ -46,18 +58,20 @@ body {
 .header__links {
   display: flex;
   padding-top: 5px;
+  margin-left: 15%;
 }
 
 .header__link {
-  color: black;
+  color: #ff445b;
   font-size: 30px;
   padding-right: 50px;
   text-align: left;
+  text-decoration: none;
 }
 /* End Header */
 
 .header__link:hover {
-  color: red;
+  color: rgb(255, 0, 0);
   transition-duration: 0.2s;
 }
 
@@ -81,6 +95,7 @@ body {
   font-size: 23px;
   margin-top: 3px;
   margin-left: 50px;
+  color: black;
 }
 
 .circle-rood-link {
@@ -159,6 +174,7 @@ body {
   font-size: 23px;
   margin-top: 3px;
   margin-left: 50px;
+  color: black;
 }
 /* End Themagebied */
 
