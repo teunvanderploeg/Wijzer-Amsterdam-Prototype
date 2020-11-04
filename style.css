@@ -178,17 +178,29 @@ body {
 }
 /* End Themagebied */
 
-/* Footer */
+/* footer */
+.footer-index{
+  margin-top: 225px;
+}
+.footer-categorie {
+  margin-top: 320px;
+}
+.footer-themagebied {
+  margin-top: 80px;
+}
+.footer-artikel {
+  margin-top: -11px;
+}
+
+.footer__img {
+  position: absolute;
+  margin-left: 63%;
+}
+
 .footer__contact-gegevens {
   display: flex;
   flex-direction: row;
   padding: 60px 0px 0px 0px;
-}
-
-.footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }
 
 .footer__paragraaf {
